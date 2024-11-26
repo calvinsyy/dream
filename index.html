@@ -69,48 +69,44 @@
     <link rel="icon" type="image/x-icon" href="./assets/icons/favicon.ico" />
   </head>
   <body>
-    <!-- Ensuring no conflict with other scripts like duck.js -->
+    <!-- Only include essential scripts here, no conflicts with title update -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.8.0/p5.min.js"></script>
-    <script src="./scripts/duck.js"></script>
 
+    <!-- Title handling script -->
     <script>
-      // Store the default title
-      const defaultTitle = "CALVIN SZE 🙂";
-      let titleCycle = ["CALVIN SZE 🙂", "Come back to CALVIN SZE 🙂", "This is CALVIN SZE 🙂"];
-      let currentTitle = "";
-      let index = 0;
+      const defaultTitle = "CALVIN SZE 🙂"; // Set your default title
+      const cycleTitles = [
+        "CALVIN SZE 🙂",
+        "Come back to CALVIN SZE 🙂",
+        "This is CALVIN SZE 🙂"
+      ];
+      let titleIndex = 0;
+      let intervalId;
 
-      // Function to change the title in a cycle
-      function changeTitle() {
-        currentTitle = titleCycle[index];
-        document.title = currentTitle;
-
-        // Move to next title in the cycle
-        index = (index + 1) % titleCycle.length;
+      // Function to start title cycling when the tab is not in focus
+      function startTitleCycle() {
+        intervalId = setInterval(() => {
+          document.title = cycleTitles[titleIndex];
+          titleIndex = (titleIndex + 1) % cycleTitles.length;
+        }, 1000); // Change title every second
       }
 
-      // Set interval to cycle through titles every 1000ms (1 second)
-      const titleInterval = setInterval(changeTitle, 1000);
+      // Stop title cycling and reset to default when the tab is in focus
+      function stopTitleCycle() {
+        clearInterval(intervalId);
+        document.title = defaultTitle; // Reset title when tab is focused
+      }
 
-      // Reset the title when the page gains focus
-      window.addEventListener("focus", function () {
-        document.title = defaultTitle; // Reset to default title when focused
-      });
+      // Change title when the tab is focused or blurred
+      window.addEventListener("focus", stopTitleCycle); // Stop cycling when focused
+      window.addEventListener("blur", startTitleCycle); // Start cycling when blurred
 
-      // Handle when the tab loses focus (blur event)
-      window.addEventListener("blur", function () {
-        // Optionally set a custom title when tab is blurred
-        document.title = "Please come back to CALVIN SZE 🙂";
-      });
-
-      // To avoid external scripts (like duck.js) from overriding the title, we keep checking and resetting the title periodically
-      setInterval(() => {
-        if (document.title !== defaultTitle) {
-          document.title = defaultTitle; // Reset the title to the default if it's overridden
-        }
-      }, 500); // Check every 500ms
+      // Initial state: start cycling when tab is blurred, use default title on focus
+      if (document.hidden) {
+        startTitleCycle();
+      } else {
+        stopTitleCycle();
+      }
     </script>
-
-    <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
