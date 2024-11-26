@@ -33,13 +33,8 @@ The website is responsive for desktop and mobile.
 
 ### Minimal Version
 
-Since the website is quite colorful and full of animations, it might be difficult for people with disabilities to navigate through it. That's why I decided to create a minimal version as well, to assist people with color blindness and/or other disabilities with their experience. The minimal version can be accessed from the website's footer, which points to [https://michaelkolesidis.com/minimal/](https://michaelkolesidis.com/minimal/).
+Since the website is quite colorful and full of animations, it might be difficult for people with disabilities to navigate through it. That's why I decided to create a minimal version as well, to assist people with color blindness and/or other disabilities with their experience. The minimal version can be accessed from the website's footer, which points to [https://www/calvinsze.com/](https://www.calvinsze.com/).
 
-## Awards
-
-### ★ DESIGN AWARD
-
-**[One Page Love](https://onepagelove.com/michael-kolesidis)**
 
 _February 2023_
 
@@ -117,86 +112,6 @@ The following library is imported via CDN:
 | #ffffff | 255, 255, 255 |
 | #0a0a0a |  10, 10, 10   |
 
-## Videos
-
-**Note:** Note: The following screenshots are outdated and reflect older versions of the website:
-
-- [Desktop](https://www.youtube.com/watch?v=wfPkxVaBJ-o)
-
-- [Mobile](https://www.youtube.com/watch?v=dSMdDVQPQdw)
-
-## Screenshots
-
-### Desktop
-
-**Note:** Note: The following screenshots are outdated and reflect older versions of the website:
-
-<img src="./screenshots/desktop_9b.png" width="800px">
-
-<img src="./screenshots/desktop_10b.png" width="800px">
-
-<img src="./screenshots/desktop_11b.png" width="800px">
-
-<img src="./screenshots/desktop_2b.png" width="800px">
-
-<img src="./screenshots/desktop_3b.png" width="800px">
-
-<img src="./screenshots/desktop_4.png" width="800px">
-
-<img src="./screenshots/desktop_5.png" width="800px">
-
-<img src="./screenshots/desktop_6.png" width="800px">
-
-<img src="./screenshots/desktop_7.png" width="800px">
-
-<img src="./screenshots/desktop_8.png" width="800px">
-
-<img src="./screenshots/desktop_12.png" width="800px">
-
-<img src="./screenshots/desktop_13.png" width="800px">
-
-<img src="./screenshots/desktop_14.png" width="800px">
-
-<img src="./screenshots/desktop_15.png" width="800px">
-
-<img src="./screenshots/desktop_16.png" width="800px">
-
-### Mobile
-
-<img src="./screenshots/mobile_1.png" width="400px">
-
-<img src="./screenshots/mobile_2.png" width="400px">
-
-<img src="./screenshots/mobile_3.png" width="400px">
-
-<img src="./screenshots/mobile_4.png" width="400px">
-
-<img src="./screenshots/mobile_5.png" width="400px">
-
-<img src="./screenshots/mobile_6.png" width="400px">
-
-### Minimal Version
-
-<img src="./screenshots/minimal.png" width="800px">
-
-For the minimal version of my website I tried to replicate the styling of my printed CV.
-
-### Full Page
-
-**Note:** Note: The following screenshots are outdated and reflect older versions of the website:
-
-- [Desktop](./screenshots/desktop_fullpage.png)
-- [Mobile](./screenshots/mobile_fullpage.png)
-
-## Acknowledgements
-
-A huge thanks to everyone who supported me, from friends and colleagues to anonymous internet users, providing valuable feedback throughout the development process.
-
-## 💖 Support the Project
-
-Thank you for your interest in my project! If you'd like to go further and support my work, you can buy me a coffee:
-
-<a href='https://ko-fi.com/michaelkolesidis' target='_blank'><img src='https://cdn.ko-fi.com/cdn/kofi1.png' style='border:0px;height:45px;' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 ## License
 

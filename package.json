@@ -1,6 +1,6 @@
 {
-  "name": "michaelkolesidis.com",
-  "url": "https://michaelkolesidis.com",
+  "name": "calvinsyy.com",
+  "url": "https://calvinsyy.com",
   "description": "My award-winning playground / portfolio website",
   "keywords": [
     "web developer",
@@ -25,11 +25,9 @@
     "rubber duck",
     "typography"
   ],
-  "author": "Michael Kolesidis",
-  "email": "michael.kolesidis@gmail.com",
+  "author": "CALVIN SZE",
+  "email": "HEY@CALVINSZE.COM",
   "license": "AGPL-3.0-or-later",
-  "repository": "https://github.com/michaelkolesidis/michaelkolesidis.com.git",
-  "homepage": "https://github.com/michaelkolesidis/michaelkolesidis.com",
   "scripts": {
     "dev": "vite --host",
     "start": "vite --host",
