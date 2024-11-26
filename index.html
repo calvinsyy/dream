@@ -78,6 +78,7 @@
       let currentTitle = "";
       let index = 0;
 
+      // Update the title to the next character every 500ms
       function changeTitle() {
         if (index < titleText.length) {
           currentTitle += titleText[index];
@@ -90,9 +91,30 @@
         }
       }
 
-      setInterval(changeTitle, 500); // Adjust speed
+      // Set the interval to change the title every 500ms
+      const titleInterval = setInterval(changeTitle, 500);
+
+      // Listen for when the tab gains or loses focus
+      window.addEventListener('focus', function() {
+        // Ensure the title resets to the desired value when the tab is focused
+        document.title = "CALVIN SZE 🙂";
+      });
+
+      window.addEventListener('blur', function() {
+        // Optionally, set a different title when the tab is out of focus
+        document.title = "Come back to CALVIN SZE 🙂";
+      });
+
+      // Prevent title from being overridden by other scripts
+      // (e.g., `duck.js` or other scripts that may change it)
+      const originalTitle = document.title;
+      setInterval(() => {
+        if (document.title !== originalTitle) {
+          document.title = originalTitle;
+        }
+      }, 500);
     </script>
-    
+
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
