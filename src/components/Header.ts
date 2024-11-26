@@ -173,7 +173,7 @@ export default function header() {
     // Chinese
     const chinese = document.createElement('p');
     chinese.setAttribute('id', 'chinese');
-    chinese.innerHTML = `欢迎来到我的网站`;
+    chinese.innerHTML = `欢迎来到我的网站,叫鸭就找我`;
     header.appendChild(chinese);
 
     dragElement(chinese);
