@@ -46,7 +46,7 @@ export const disableRightClick = () => {
 // Animate page title
 export const animateTitle = () => {
   document.addEventListener('DOMContentLoaded', () => {
-    const message = 'CALVIN SZE';
+    const message = 'CALVIN SZE PORTFOLIO';
     const speed = 200;
     let position = 0;
     let forward = true;
