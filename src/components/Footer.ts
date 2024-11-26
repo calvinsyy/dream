@@ -5,7 +5,7 @@ export default function footer() {
     // Copyright
     const copyright = document.createElement('p');
     copyright.setAttribute('id', 'copyright');
-    copyright.innerHTML = `© 2025 Michael Kolesidis`;
+    copyright.innerHTML = `© 2022 CALVIN SZE`;
     footer.appendChild(copyright);
 
     if (window.innerWidth < 700) {
@@ -17,7 +17,7 @@ export default function footer() {
 
     const disclaimer = document.createElement('p');
     disclaimer.setAttribute('id', 'disclaimer');
-    disclaimer.innerHTML = `For a minimal and accessible for people with color blindness version of this website, please click <a href="https://michaelkolesidis.com/minimal/" target="_blank" >here</a>.`;
+    disclaimer.innerHTML = `For a minimal and accessible for people with color blindness version of this website, please click <a href="https://calvinsze.com" target="_blank" >here</a>.`;
     footer.appendChild(disclaimer);
 
     const duck = document.createElement('div');

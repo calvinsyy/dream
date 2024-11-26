@@ -18,7 +18,7 @@ export default function contact() {
     // Email
     const email = document.createElement('p');
     email.setAttribute('id', 'email');
-    email.innerHTML = `For inquiries please drop me a line at:<br>michael.kolesidis@gmail.com`;
+    email.innerHTML = `For inquiries please drop me a line at:<br>hey@calvinsze.com`;
     contact.appendChild(email);
 
     // Socials
@@ -45,39 +45,23 @@ export default function contact() {
     const linkedin = document.createElement('a');
     linkedin.classList.add('social');
     linkedin.innerHTML = /* html */ `<span>LINKEDIN</span>`;
-    linkedin.href = 'https://www.linkedin.com/in/michaelkolesidis/';
+    linkedin.href = 'https://www.linkedin.com/in/calvinsze/';
     linkedin.target = '_blank';
     socials.appendChild(linkedin);
-
-    // Mastodon
-    const mastodon = document.createElement('a');
-    mastodon.classList.add('social');
-    mastodon.innerHTML = /* html */ `<span>MASTODON</span>`;
-    mastodon.href = 'https://mastodon.social/@michaelkolesidis';
-    mastodon.target = '_blank';
-    socials.appendChild(mastodon);
 
     // Instagram
     const instagram = document.createElement('a');
     instagram.classList.add('social');
     instagram.innerHTML = /* html */ `<span>INSTAGRAM</span>`;
-    instagram.href = 'https://www.instagram.com/michaelkolesidis';
+    instagram.href = 'https://www.instagram.com/calvin.syy';
     instagram.target = '_blank';
     socials.appendChild(instagram);
-
-    // X/Twitter
-    const twitter = document.createElement('a');
-    twitter.classList.add('social');
-    twitter.innerHTML = /* html */ `<span>X/TWITTER</span>`;
-    twitter.href = 'https://twitter.com/michael_kol_';
-    twitter.target = '_blank';
-    socials.appendChild(twitter);
 
     // GitHub
     const github = document.createElement('a');
     github.classList.add('social');
     github.innerHTML = /* html */ `<span>GITHUB</span>`;
-    github.href = 'https://github.com/michaelkolesidis';
+    github.href = 'https://github.com/calvinsyy';
     github.target = '_blank';
     socials.appendChild(github);
 

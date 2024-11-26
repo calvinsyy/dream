@@ -10,7 +10,7 @@ export default function header() {
     // Name
     const name = document.createElement('div');
     name.setAttribute('id', 'name');
-    name.innerHTML = /* html */ `MICHAEL K<span id="title-letter">O</span>LESIDIS`;
+    name.innerHTML = /* html */ `CALVIN S<span id="title-letter">Z</span>E`;
     header.appendChild(name);
 
     // Smiley
@@ -55,40 +55,40 @@ export default function header() {
     </a>
     <a 
       target="_blank" 
-      href="https://www.linkedin.com/in/michaelkolesidis"
+      href="https://www.linkedin.com/in/calvinsze"
       class="left"
     >
     LINKEDIN
     </a>
     <a 
       target="_blank" 
-      href="https://mastodon.social/@michaelkolesidis"
+      href="https://mastodon.social/@calvinsze"
     >
     MASTODON
     </a>
     <a 
       target="_blank" 
-      href="https://www.instagram.com/michaelkolesidis"
+      href="https://www.instagram.com/calvin.syy"
       class="left"
     >
     INSTA
     </a>
     <a
       target="_blank" 
-      href="https://x.com/michael_kol_"
+      href="https://x.com/calvinsze"
     >
     X/TWITTER
     </a>
     <a 
       target="_blank" 
-      href="https://github.com/michaelkolesidis"
+      href="https://github.com/calvinsyy"
       class="left"
     >
     GITHUB
     </a>
     <a 
       target="_blank" 
-      href="mailto:michael.kolesidis@gmail.com"
+      href="mailto:"
     >
     EMAIL
     </a>
