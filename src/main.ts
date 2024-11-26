@@ -12,7 +12,7 @@ import footer from './components/Footer.js';
 import topButton from './components/TopButton.js';
 import soundButton from './components/SoundButton.js';
 import { getScrollDistanceCss } from './utils/functions.js';
-import { disableRightClick } from './utils/functions.js';
+import { disablePageInteractions } from './utils/functions.js';
 import { animateTitle } from './utils/functions.js';
 
 // Components
@@ -30,6 +30,6 @@ topButton();
 soundButton();
 
 // Global Functions
-disableRightClick(); // Disable right click
+disablePageInteractions(); // Disable right-click and dev tools
 getScrollDistanceCss(); // Get scroll distance as a CSS variable
 animateTitle(); // Animate page title
