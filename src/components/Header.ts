@@ -42,16 +42,16 @@ export default function header() {
     contactModal.innerHTML = /* html */ `
     <a 
       target="_blank" 
-      href="https://www.imdb.com/name/nm9251920/"
+      href="https://www.facebook.com/calvin.syyyy/"
       class="left"      
     >
-    IMDB
+    FACEBOOK
     </a>
     <a 
     target="_blank" 
-    href="https://pro.imdb.com/name/nm9251920/"
+    href="https://www.instagram.com/calvin.syy/"
     >
-    IMDBPRO
+    INSTAGRAM
     </a>
     <a 
       target="_blank" 
@@ -62,20 +62,20 @@ export default function header() {
     </a>
     <a 
       target="_blank" 
-      href="https://mastodon.social/@calvinsze"
+      href="https://wa.me/+15168888886/"
     >
-    MASTODON
+    WHATSAPP
     </a>
     <a 
       target="_blank" 
-      href="https://www.instagram.com/calvin.syy"
+      href="https://open.spotify.com/playlist/3VceEeakunmaHplVFBL4mg?si=9556b41dbcea4702"
       class="left"
     >
-    INSTA
+    SPOTIFY
     </a>
     <a
       target="_blank" 
-      href="https://x.com/calvinsze"
+      href="https://x.com/calvinsyy"
     >
     X/TWITTER
     </a>
@@ -88,7 +88,7 @@ export default function header() {
     </a>
     <a 
       target="_blank" 
-      href="mailto:"
+      href="mailto:"hey@calvinsze.com
     >
     EMAIL
     </a>

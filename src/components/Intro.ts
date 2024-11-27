@@ -65,7 +65,7 @@ export default function intro() {
     // What Am I (paragraph on the right)
     const whatami = document.createElement('p');
     whatami.setAttribute('id', 'right');
-    whatami.innerHTML = /* html */ `I am a Visual Storyteller, a Web Developer and Designer. I strive to create narratives that reflect of our shared human experiences, exploring themes of connection and understanding, playing my part in shaping the future of the web.`;
+    whatami.innerHTML = /* html */ `I am a Photographer, Software Engineer, and Designer who tells stories of shared human experiences. By exploring themes of connection and understanding, I strive to shape a digital world that brings people closer together.`;
     intro.appendChild(whatami);
 
     // Scroll prompt
