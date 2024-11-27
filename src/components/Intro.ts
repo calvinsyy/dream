@@ -9,7 +9,7 @@ export default function intro() {
     // Who Am I (paragraph on the left)
     const whoami = document.createElement('p');
     whoami.setAttribute('id', 'left');
-    whoami.innerHTML = `I'm Calvin Sze.<br>(as you might have already guessed from the huge heading)`;
+    whoami.innerHTML = `You know, the one with the oversized heading—can't miss me)`;
     intro.appendChild(whoami);
 
     // Handwriting

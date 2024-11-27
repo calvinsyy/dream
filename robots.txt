@@ -1,2 +1,30 @@
+# Allow all search engines to crawl everything except unnecessary parts
 User-agent: *
-Disallow: 
+Disallow: /private/       # Private pages, like user profiles or admin panels
+Disallow: /admin/         # Block admin panel access
+Disallow: /login/         # Login pages to avoid duplicate indexing
+Disallow: /search/        # Search result pages to prevent duplicate content
+Disallow: /*?sessionid=   # Block URLs with session IDs (duplicate content)
+Disallow: /*?ref=         # Block URLs with referrer parameters
+Disallow: /*.pdf$         # Block crawling of PDF files
+Disallow: /*.doc$         # Block crawling of document files
+
+# Allow certain content to be crawled
+Allow: /images/           # Allow crawling of images
+Allow: /blog/             # Allow crawling of blog posts or important sections
+Allow: /public/           # Allow crawling of publicly accessible sections
+
+# Sitemap URLs
+Sitemap: https://www.calvinsyy.com/sitemap1.xml
+Sitemap: https://www.calvinsyy.com/sitemap2.xml
+
+# Optional: Control specific bots (if needed)
+User-agent: Googlebot
+Disallow: /private/
+
+User-agent: Bingbot
+Allow: /public/
+
+# Optional: Crawl delay for slower crawlers (not supported by all bots)
+User-agent: *
+Crawl-delay: 10
