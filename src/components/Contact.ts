@@ -18,7 +18,7 @@ export default function contact() {
     // Email
     const email = document.createElement('p');
     email.setAttribute('id', 'email');
-    email.innerHTML = `For inquiries please drop me a line at:<br>hey@calvinsze.com`;
+    email.innerHTML = `For inquiries please drop me a line at:<br>HEY@CALVINSZE.COM`;
     contact.appendChild(email);
 
     // Socials
