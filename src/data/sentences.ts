@@ -6,7 +6,7 @@ export const sentencesAbout = [
 
   `I have lived, studied, and worked in New York City, where I studied Fine Art and Entrepreneurship at New York University, combining my creative background with a strong business mindset.`,
 
-  `I used to have a rubber duck on my desk, but now it shares space with a Maneki-neko, the iconic Japanese lucky cat figurine. Together, they bring a mix of fun and good fortune to my workspace!`,
+  `My desk used to feature a rubber duck, but now it’s home to a Maneki-neko, the iconic lucky cat figurine. With its roots in Chinese culture, it brings a playful touch and a bit of good fortune to my workspace!`,
 
   `I’m a watch collector, with a passion for the artistry and precision behind each timepiece. Every watch in my collection holds its own story and significance.`,
 ];
