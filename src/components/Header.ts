@@ -86,12 +86,12 @@ export default function header() {
     >
     GITHUB
     </a>
-    <a 
-      target="_blank" 
-      href="mailto:"hey@calvinsze.com
-    >
-    EMAIL
-    </a>
+<a 
+  target="_blank" 
+  href="mailto:hey@calvinsze.com"
+>
+  EMAIL
+</a>
     `;
 
     const contactModalTitle = document.createElement('div');
@@ -135,9 +135,9 @@ export default function header() {
     const content = document.createElement('div');
     content.classList.add('content');
     content.innerHTML = /* html */ `
-        <p>DESIGN AWARD</p>
-        <p>One Page Love</p>
-        <p>February 2023</p>`;
+        <p>PEACE</p>
+        <p>AND</p>
+        <p>LOVE</p>`;
     messageBox.appendChild(content);
 
     dragElement(messageBox);
