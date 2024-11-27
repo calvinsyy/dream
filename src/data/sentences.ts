@@ -1,14 +1,14 @@
 // About section sentences
 export const sentencesAbout = [
-  `I primarily work with React, Next.js, and TypeScript, alongside various other frameworks and libraries. I am highly adaptable to different technologies and situations.`,
+  `I am a dedicated technologist and entrepreneur, focused on creating thoughtful and impactful solutions that drive meaningful change.`,
 
-  `I am passionate about filmmaking, cinematography, and video production, and I’m also an avid cinephile.`,
+  `I am passionate about storytelling through photography, cinematography, and the arts, blending creativity with technical expertise to craft compelling visual narratives.`,
 
-  `I have lived, studied and worked in Greece, Spain (Barcelona) and the UK (Brighton). I studied Filmmaking, as well as Drama, Theatre, and Performance in the UK. Before that, I had studied Economics in Greece.`,
+  `I have lived, studied, and worked in New York City, where I studied Fine Art and Entrepreneurship at New York University, combining my creative background with a strong business mindset.`,
 
   `I used to have a rubber duck on my desk, but now it shares space with a Maneki-neko, the iconic Japanese lucky cat figurine. Together, they bring a mix of fun and good fortune to my workspace!`,
 
-  `I don't drink coffee or tea—well, maybe tea a few times a year, but that's about it.`,
+  `I’m a watch collector, with a passion for the artistry and precision behind each timepiece. Every watch in my collection holds its own story and significance.`,
 ];
 
 // This Website section sentences
