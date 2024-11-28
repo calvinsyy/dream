@@ -53,7 +53,7 @@ export default function contact() {
     const Whatsapp = document.createElement('a');
     Whatsapp.classList.add('social');
     Whatsapp.innerHTML = /* html */ `<span>WHATSAPP</span>`;
-    Whatsapp.href = 'https://https://api.whatsapp.com/send/?phone=%2B15168888886&text&type=phone_number&app_absent=0/';
+    Whatsapp.href = 'https://api.whatsapp.com/send/?phone=%2B15168888886&text&type=phone_number&app_absent=0/';
     Whatsapp.target = '_blank';
     socials.appendChild(Whatsapp);
 
