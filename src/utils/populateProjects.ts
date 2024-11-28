@@ -60,7 +60,7 @@ export const populateProjects = (
     // Seperator
     const seperator = document.createElement('div');
     seperator.classList.add('seperator');
-    seperator.innerHTML = `MADE WITH`;
+    seperator.innerHTML = `PUBLISHED DATE`;
     proj.appendChild(seperator);
 
     // Technologies
