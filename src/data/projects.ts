@@ -1,16 +1,13 @@
 const projectList = [
   {
-    name: 'JSS-01',
-    image: '../../images/jss-01.png?v=2',
-    technologies: 'Tone.js, WEBMIDI.js, TypeScript, JavaScript, Sass',
-    summary: 'A powerful software synthesizer build with web technologies.',
-    description: `The JavaScript Software Synthesizer is a web application
-                  enabling users to make and play music in the browser. It is
-                  a software synthesizer utilizing the Web Audio API by
-                  implementing a variety of JavaScript libraries.`,
-    repository:
-      'https://github.com/michaelkolesidis/javascript-software-synthesizer',
-    deployment: 'https://javascript-software-synthesizer.vercel.app/',
+    name: 'Woman',
+    image: '',
+    technologies: '',
+    summary: '',
+    description: ``,
+    URL:
+      'https://www.calvinsze.com/mw',
+    deployment: 'https://www.calvinsze.com/mw',
     video: '',
     visible: true,
   },
