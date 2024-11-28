@@ -25,21 +25,21 @@ export default function contact() {
     const socials = document.createElement('div');
     socials.setAttribute('id', 'socials');
 
-    // IMDb
-    const imdb = document.createElement('a');
-    imdb.classList.add('social');
-    imdb.innerHTML = /* html */ `<span>IMDB</span>`;
-    imdb.href = 'https://www.imdb.com/name/nm9251920/';
-    imdb.target = '_blank';
-    socials.appendChild(imdb);
+    // Facebook
+    const facebook = document.createElement('a');
+    facebook.classList.add('social');
+    facebook.innerHTML = /* html */ `<span>FACEBOOK</span>`;
+    facebook.href = 'https://www.facebook.com/calvin.syyyy/';
+    facebook.target = '_blank';
+    socials.appendChild(facebook);
 
-    // IMDbPro
-    const imdbPro = document.createElement('a');
-    imdbPro.classList.add('social');
-    imdbPro.innerHTML = /* html */ `<span>IMDBPRO</span>`;
-    imdbPro.href = 'https://pro.imdb.com/name/nm9251920/';
-    imdbPro.target = '_blank';
-    socials.appendChild(imdbPro);
+    // Instagram
+    const instagram = document.createElement('a');
+    instagram.classList.add('social');
+    instagram.innerHTML = /* html */ `<span>INSTAGRAM</span>`;
+    instagram.href = 'https://www.instagram.com/calvin.syy/';
+    instagram.target = '_blank';
+    socials.appendChild(instagram);
 
     // LinkedIn
     const linkedin = document.createElement('a');
@@ -49,21 +49,21 @@ export default function contact() {
     linkedin.target = '_blank';
     socials.appendChild(linkedin);
 
-    // Instagram
-    const instagram = document.createElement('a');
-    instagram.classList.add('social');
-    instagram.innerHTML = /* html */ `<span>INSTAGRAM</span>`;
-    instagram.href = 'https://www.instagram.com/calvin.syy';
-    instagram.target = '_blank';
-    socials.appendChild(instagram);
+    // Whatsapp
+    const Whatsapp = document.createElement('a');
+    Whatsapp.classList.add('social');
+    Whatsapp.innerHTML = /* html */ `<span>WHATSAPP</span>`;
+    Whatsapp.href = 'https://https://api.whatsapp.com/send/?phone=%2B15168888886&text&type=phone_number&app_absent=0/';
+    Whatsapp.target = '_blank';
+    socials.appendChild(Whatsapp);
 
-    // GitHub
-    const github = document.createElement('a');
-    github.classList.add('social');
-    github.innerHTML = /* html */ `<span>GITHUB</span>`;
-    github.href = 'https://github.com/calvinsyy';
-    github.target = '_blank';
-    socials.appendChild(github);
+    // Spotify
+    const Spotify = document.createElement('a');
+    Spotify.classList.add('social');
+    Spotify.innerHTML = /* html */ `<span>SPOTIFY</span>`;
+    Spotify.href = 'https://open.spotify.com/playlist/3VceEeakunmaHplVFBL4mg?si=9556b41dbcea4702&nd=1&dlsi=126a4945370c4ce9';
+    Spotify.target = '_blank';
+    socials.appendChild(Spotify);
 
     contact.appendChild(socials);
   }
