@@ -70,16 +70,17 @@ export const populateProjects = (
     proj.appendChild(techonolgies);
 
     // Repository Link
-if (project.repository && typeof project.repository === 'string' && project.repository.length > 0) {
-  const repoLink = document.createElement('a');
-  repoLink.classList.add('repo-link');
-  repoLink.innerHTML = 'GitHub';
-  repoLink.href = `${project.repository}`;
-  repoLink.target = '_blank';
-  proj.appendChild(repoLink);
-}
+    if (project.repository.length > 0) {
+      const repoLink = document.createElement('a');
+      repoLink.classList.add('repo-link');
+      repoLink.innerHTML = 'GitHub';
+      repoLink.href = `${project.repository}`;
+      repoLink.target = '_blank';
+      proj.appendChild(repoLink);
+    }
 
-parent.appendChild(proj);
+    parent.appendChild(proj);
+  }
 
   const allProjects = document.querySelectorAll('.project-card');
   allProjects.forEach((proj) => {
