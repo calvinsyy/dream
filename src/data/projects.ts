@@ -1,13 +1,13 @@
 const projectList = [
   {
-    name: 'Women',
+    name: '',
     image: '',
     technologies: '',
     summary: '',
     description: ``,
     repository:
-      'https://github.com/michaelkolesidis/javascript-software-synthesizer',
-    deployment: 'https://javascript-software-synthesizer.vercel.app/',
+      '',
+    deployment: '',
     video: '',
     visible: true,
   },
