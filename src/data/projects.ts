@@ -12,7 +12,7 @@ const projectList = [
       'https://github.com/michaelkolesidis/javascript-software-synthesizer',
     deployment: 'https://javascript-software-synthesizer.vercel.app/',
     video: '',
-    visible: false,
+    visible: true,
   },
 
   {
